@@ -1023,13 +1023,13 @@ function draw() {
         if(player1X >= width / 2.3-20 && player1X <= width / 2.3+20 && (height/2+20)/2 >= player1Y)
         {
             remove1()
-            level4f()
+            level5f()
         }
 
         if(player1X >= width / 1.8-20 && player1X <= width / 1.8+20 && (height/2-20)/2 <= player1Y)
         {
             remove1()
-            level4f()
+            level5f()
         }
 
         image(lazerImg2, width / 1.8, height/2.7, 20, height/4+20)
@@ -1040,7 +1040,7 @@ function draw() {
         if(player1X <= width / 3 && !player1done && !player2done)
         {
             remove1()
-            level4f()
+            level5f()
         }}
 
         image(lazerImg, width / 2, height / 2, width, height/50)
@@ -1074,7 +1074,7 @@ function draw() {
 
         if (player1Y >= height / 2 - 20) {
             remove1()
-            level4f()
+            level5f()
         }
 
         if(player2.position.x >= width / 1.15 - 40 && player2.position.x <= width / 1.15 + 40){
